@@ -7,7 +7,6 @@ class Square:
     def area(self):
         print("Area of Square =", self.a * self.b)
 
-
 class Circle:
 
     def __init__(self, r):
@@ -15,8 +14,6 @@ class Circle:
 
     def area(self):
         print("Area of Circle =", 3.14 * self.r * self.r)
-
-
 
 sq = Square(10, 10)
 sq.area()
